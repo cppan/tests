@@ -1,4 +1,7 @@
 /*
+local_build:
+    build:
+        cxx_flags: -std=c++11
 dependencies:
   pvt.cppan.demo.boost_experimental.http: master
   pvt.cppan.demo.boost.asio: 1.61
