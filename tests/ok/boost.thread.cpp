@@ -15,7 +15,7 @@ dependencies:
 
 int main(int argc, char* argv[])
 {
-    boost::thread t([] {});
+    boost::thread t([](){});
     t.join();
 
     return 0;
