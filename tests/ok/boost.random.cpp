@@ -1,4 +1,7 @@
 /*
+local_settings:
+    build:
+        use_shared_libs: true
 dependencies:
   pvt.cppan.demo.boost.random: 1
 */
