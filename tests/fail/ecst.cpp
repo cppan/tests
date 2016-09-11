@@ -1,9 +1,21 @@
 /*
+local_settings:
+    build:
+        c_compiler: gcc-6
+        cxx_compiler: g++-6
 dependencies:
     pvt.cppan.demo.superv1234.ecst: master
 */
 
+
 #include <ecst.hpp>
+
+using ft = float;
+struct vec2f
+{
+    float x;
+    float y;
+};
 
 // Define some components.
 namespace c
@@ -39,7 +51,7 @@ namespace ct
 }
 
 // Define some systems.
-namespace s
+namespace st
 {
     // Systems are simple classes as well, that do not need to satisfy any
     // particular interface. They can store data and have any method the
@@ -253,7 +265,7 @@ int main()
             ecst::refresh_event::on_subscribe(st::acceleration,
                 [](auto& system, auto eid)
                 {
-                    log() << "Entity #" << eid
+                    log() << "Entity #" << eid 
                           << " subscribed to acceleration system.\n".
                 }),
             ecst::refresh_event::on_reclaim([](auto eid)
