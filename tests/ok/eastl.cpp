@@ -1,7 +1,4 @@
 /*
-local_settings:
-    build:
-        silent: false
 dependencies:
     pvt.cppan.demo.electronicarts.eastl: 3.2.1
 */

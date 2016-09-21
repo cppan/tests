@@ -1,6 +1,9 @@
 /*
+local_settings:
+    build:
+        cxx_flags: -std=c++11
 dependencies:
-    pvt.cppan.demo.ninetainedo.sery
+    pvt.cppan.demo.ninetainedo.sery: 1
 */
 
 #include <Sery/Buffer.hh>

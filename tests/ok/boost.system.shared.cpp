@@ -1,7 +1,6 @@
 /*
 local_settings:
     build:
-        silent: false
         generator: Visual Studio 14 2015 Win64
         cxx_compiler_flags_debug: /MTd
         cxx_compiler_flags_release: /MT
