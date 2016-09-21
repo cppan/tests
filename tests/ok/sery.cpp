@@ -3,7 +3,7 @@ local_settings:
     build:
         cxx_flags: -std=c++11
 dependencies:
-    pvt.cppan.demo.ninetainedo.sery: 1
+    pvt.ninetainedo.sery
 */
 
 #include <Sery/Buffer.hh>
