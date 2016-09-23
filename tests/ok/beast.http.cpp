@@ -1,7 +1,4 @@
 /*
-local_settings:
-    build:
-        use_shared_libs: true
 dependencies:
     pvt.cppan.demo.vinniefalco.beast: master
     pvt.cppan.demo.boost.system: 1
