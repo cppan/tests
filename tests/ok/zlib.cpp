@@ -3,7 +3,7 @@ local_settings:
   build:
     use_shared_libs: true
 dependencies:
-  pvt.cppan.demo.zlib: master
+  pvt.cppan.demo.zlib: 1
 */
 
 /* zpipe.c: example of proper use of zlib's inflate() and deflate()
