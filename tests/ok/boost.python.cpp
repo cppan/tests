@@ -1,7 +1,6 @@
 /*
 local_settings:
     build:
-        use_shared_libs: true
         type: shared
 dependencies:
     pvt.cppan.demo.boost.python: 1
