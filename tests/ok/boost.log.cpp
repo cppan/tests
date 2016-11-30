@@ -3,7 +3,7 @@ local_settings:
     build:
         generator: Visual Studio 14 2015 Win64
 dependencies:
-  pvt.cppan.demo.boost.log: 1
+    pvt.cppan.demo.boost.log: 1
 */
 
 /*

@@ -1,5 +1,6 @@
 /*
 local_settings:
+    use_shared_libs: true
     build:
         cxx_flags: -std=c++11
 

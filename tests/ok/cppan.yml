@@ -1,0 +1,16 @@
+local_settings:
+    build:
+        generator: Visual Studio 14 2015 Win64
+
+projects:
+    tess:
+        files: tesseract.cpp
+        dependencies:
+            pvt.cppan.demo.leptonica: master
+            pvt.cppan.demo.tesseract: master
+    python:
+        type: lib
+        shared_only: true
+        files: boost.python.cpp
+        dependencies:
+            pvt.cppan.demo.boost.python: 1
