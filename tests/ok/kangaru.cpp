@@ -1,4 +1,9 @@
 /*
+local_settings:
+    build:
+        #c_compiler: gcc-5
+        #cxx_compiler: g++-5
+        cxx_flags: -std=c++11
 dependencies:
     pvt.gracicot.kangaru: 3
 */
