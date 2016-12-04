@@ -1,9 +1,12 @@
 /*
+local_settings:
+    build:
+        cxx_flags: -std=c++11
 dependencies:
-  # remove the next line if you need only tesseract dependency
-  # e.g. when using other image library - opencv or something else
-  pvt.cppan.demo.leptonica: master
-  pvt.cppan.demo.tesseract: master
+    # remove the next line if you need only tesseract dependency
+    # e.g. when using other image library - opencv or something else
+    pvt.cppan.demo.leptonica: master
+    pvt.cppan.demo.tesseract: master
 */
 
 #include <iostream>
