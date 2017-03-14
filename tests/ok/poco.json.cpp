@@ -1,8 +1,4 @@
 /*
-local_settings:
-    build:
-        use_shared_libs: true
-        #configuration: Debug
 dependencies:
     pvt.cppan.demo.poco.json: 1
 */

@@ -1,7 +1,4 @@
 /*
-local_settings:
-    build:
-        use_shared_libs: true
 dependencies:
     pvt.cppan.demo.poco.data: 1
     pvt.cppan.demo.poco.sqlite: 1

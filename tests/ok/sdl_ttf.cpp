@@ -1,7 +1,4 @@
 /*
-local_settings:
-    build:
-        use_shared_libs: true
 dependencies:
     - pvt.cppan.demo.valve.sdl_ttf
     - pvt.cppan.demo.valve.sdl.sdlmain

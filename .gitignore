@@ -1,6 +1,7 @@
 *.lnk
 *.exe
 *.dll
+*.lib
 *.so
 *.a
 cppan-build-*

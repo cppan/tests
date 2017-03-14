@@ -2,7 +2,6 @@
 local_settings:
     build:
         cxx_flags: -std=c++11
-        use_shared_libs: true
 dependencies:
   pvt.cppan.demo.boost_experimental.http: master
   pvt.cppan.demo.boost.asio: 1.61

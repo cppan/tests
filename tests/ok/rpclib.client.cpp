@@ -1,6 +1,4 @@
 /*
-local_settings:
-    use_shared_libs: true
 dependencies:
     pvt.cppan.demo.sztomi.rpclib: master
 */

@@ -1,7 +1,4 @@
 /*
-local_settings:
-    build:
-        use_shared_libs: true
 dependencies:
     pvt.cppan.demo.dfalkcreative.ipl: master
     pvt.cppan.demo.valve.sdl.sdlmain: 2

@@ -1,9 +1,9 @@
 /*
 local_settings:
   build:
-    use_shared_libs: true
     silent: false
     #cmake_verbose: true
+    verify_all: true
 dependencies:
   pvt.cppan.demo.zlib: 1
 */

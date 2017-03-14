@@ -2,7 +2,6 @@
 local_settings:
     build:
         generator: Visual Studio 14 2015 Win64
-        #use_shared_libs: true
 dependencies:
     pvt.cppan.demo.pferdinand.pqmxx: 1
 */
