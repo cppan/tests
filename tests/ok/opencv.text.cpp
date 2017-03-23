@@ -1,6 +1,8 @@
 /*
 dependencies:
+    pvt.cppan.demo.intel.opencv.features2d: 3
     pvt.cppan.demo.intel.opencv.highgui: 3
+    pvt.cppan.demo.intel.opencv.videoio: 3
     pvt.cppan.demo.intel.opencv.contrib.text: 3
  */
 
@@ -18,6 +20,7 @@ dependencies:
 #include "opencv2/highgui.hpp"
 #include "opencv2/imgproc.hpp"
 #include "opencv2/features2d.hpp"
+#include "opencv2/videoio.hpp"
 
 #include <iostream>
 
